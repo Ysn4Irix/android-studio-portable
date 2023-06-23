@@ -3,12 +3,12 @@ name: gosum
 on:
   push:
     branches:
-      - 'master'
+      - "master"
     paths:
-      - '.github/workflows/gosum.yml'
-      - 'go.mod'
-      - 'go.sum'
+      - ".github/workflows/gosum.yml"
+      - "go.mod"
+      - "go.sum"
 
 jobs:
   fix:
-    uses: portapps/.github/.github/workflows/app-gosum.yml@master
+    uses: ysn4irix/.github/.github/workflows/app-gosum.yml@master
